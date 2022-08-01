@@ -1,0 +1,14 @@
+.experience {
+    position: relative;
+    top: 180px;
+    padding: 100px;
+    border-top: 0.2px solid #222;
+    margin-bottom: 20px;
+}
+
+.local-description-1, .local-description-2, .local-description-3 {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 22px;
+}

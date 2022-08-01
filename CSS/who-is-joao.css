@@ -1,0 +1,82 @@
+.who-is-joao {
+    border-top: 0.2px solid #222;
+    padding: 100px;
+    text-shadow: 0px 0px 50px;
+    top: 50px;
+    margin-bottom: 20px;
+}
+
+#profile-photo {
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 100%; 
+    box-shadow: 20px 10px 150px rgba(182, 182, 30, 0.521); 
+}
+
+#title-who-is-joao {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    color: white;
+    left: 42%;
+    top: 127%;
+}
+
+#paragraph-who-is-joao-1 {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: white;
+    left: 42%;
+    top: 140%;
+}
+
+#paragraph-who-is-joao-2 {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: white;
+    left: 42%;
+    bottom: 395px;
+    top: 144%;
+}
+
+#paragraph-who-is-joao-3 {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: white;
+    left: 42%;
+    bottom: 370px;
+    top: 148%;
+}
+
+#paragraph-who-is-joao-4 {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: white;
+    left: 42%;
+    bottom: 345px;
+    top: 152%;
+}
+
+#paragraph-who-is-joao-5 {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: white;
+    left: 42%;
+    bottom: 320px;
+    top: 156%;
+}
+
+#paragraph-who-is-joao-6 {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: white;
+    left: 42%;
+    bottom: 295px;
+    top: 160%;
+}

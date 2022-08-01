@@ -1,0 +1,91 @@
+.projects {
+    border-top: 0.2px solid #222;
+    position: relative;
+    padding: 100px;
+    margin-bottom: 60px;
+    top: 570px;
+}
+
+.container {
+    position: relative;
+    width: 1024px;
+    height: 576px;
+    overflow: hidden;
+    transition: 0.4s;
+    left: 5%;
+    top: 80px;
+}
+
+.slides {
+    width: 5120px;
+    display: flex;
+}
+
+.images-project img {
+    width: 1085px;
+    height: 450px;
+}
+
+#atual {
+    margin-left: 0;
+    transition: all 2s;
+}
+
+.btn-back, .btn-next {
+    position: absolute;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-size: 2.7em;
+    margin-top: -5px;
+}
+
+.btn-back:hover, .btn-next:hover {
+    transform: scale(1.5);
+}
+
+#back {
+    top: 50%;
+    left: 5%;
+    border-radius: 50%;
+}
+
+#next {
+    top: 50%;
+    left: 90%;
+    border-radius: 50%;
+}
+
+.balls {
+    position: absolute;
+    width: 1080px;
+    display: flex;
+    justify-content: center;
+    margin-top: -45px;
+}
+
+.balls div {
+    position: relative;
+    transition: all 0.5s;
+    border: 6px solid white;
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+    top: 550px;
+}
+
+.balls div:hover {
+    background: white;
+    text-shadow: 0 0 50px;
+}
+
+.img-atual {
+    background: white;
+    transition: all 0.5s;
+}

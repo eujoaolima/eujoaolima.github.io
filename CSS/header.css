@@ -1,0 +1,40 @@
+.top-header {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 90px;
+}
+
+nav a {
+    cursor: pointer;
+    color: white;
+}
+
+nav a::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #ffd700;
+    margin-top: 5px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+  
+nav a:hover::after {
+    transform: scaleX(1);
+}
+
+.header-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.header-menu-item {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+}
