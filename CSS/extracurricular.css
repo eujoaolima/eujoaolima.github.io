@@ -4,3 +4,26 @@
     position: relative;
     margin-bottom: 40px;
 }
+
+#title-extracurricular {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 55px;
+    text-shadow: 0px 0px 50px;
+}
+
+@media (max-width: 1300px) {
+    .extracurricular {
+        border: none;
+        top: 2150px;
+    }
+
+    #title-extracurricular {
+        position: absolute;
+        left: 0;
+        transform: translate(-20%, 0);
+        text-align: center;
+        width: 100%;
+    }
+}
