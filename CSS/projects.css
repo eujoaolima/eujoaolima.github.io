@@ -89,3 +89,139 @@
     background: white;
     transition: all 0.5s;
 }
+
+.projects-pc {
+    display: flex;
+}
+
+.projects-mobile {
+    display: none;
+}
+
+#title-projects {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 55px;
+    text-shadow: 0px 0px 50px;
+}
+
+@media (max-width: 1300px) {
+    .projects {
+        border: none;
+        top: 3100px;
+    }
+
+    .projects-pc {
+        display: none;
+    }
+
+    #title-projects {
+        text-align: center;
+    }
+
+    .projects-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-size: 25px;
+    }
+
+    .box{
+        width: 65px;
+        height: 68px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        margin: 0.6rem;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        transition: all .4s ease;
+    }
+    
+    .box:hover{
+        width: 200px;
+        background: #FE0002;
+        border-radius: 35px;
+        color: #fff;
+        box-shadow: 0 0 50px #6A0400;
+    }
+    
+    .box:nth-child(2):hover{
+        background: #25d366;
+        box-shadow: 0 0 50px #25d3657e;
+    }
+    
+    .box:nth-child(3):hover{
+        background: #f7931a;
+        box-shadow: 0 0 50px #b96f15b9;
+    }
+    
+    .box:nth-child(4):hover{
+        background: blueviolet;
+        box-shadow: 0 0 50px rgb(80, 25, 133);
+    }
+    
+    .box:nth-child(5):hover{
+        background: crimson;
+        box-shadow: 0 0 50px rgb(129, 12, 35);
+    }
+    
+    .box:nth-child(6):hover{
+        background: #1da1f2;
+        box-shadow: 0 0 50px #1876f285;
+    }
+    
+    .navbar p{
+        transform: translate(60px);
+    }
+    
+    .box .icon{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        border-radius: 50%;
+        margin-right: 10px;
+        transition: all .4s ease;
+    }
+    
+    .bitcoin{
+        background-color: #f7931a;
+    }
+    
+    .game{
+        background-color: #25d366;
+    }
+    
+    .mario{
+        background-color: #FE0002;
+    }
+    
+    .menu{
+        background-color: crimson;
+    }
+    
+    .piano{
+        background-color: #1da1f2;
+    }
+    
+    .calculator{
+        background-color: blueviolet;
+    }
+    
+    .box:hover .icon{
+        background: #fff;
+        color: #3b3b3b;
+        box-shadow: 0 0 20px rgba(0,0,0,0.26);
+    }
+
+    #link {
+        color: white;
+    }
+}
