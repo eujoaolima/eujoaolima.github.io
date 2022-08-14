@@ -145,3 +145,51 @@
     position: absolute;
     top: 70%;
 }
+
+#title-social-media {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 55px;
+    text-shadow: 0px 0px 50px;
+}
+
+@media (max-width: 1300px) {
+    .social-media {
+        top: 2900px;
+        border: none;
+    }
+
+    #title-social-media {
+        width: 100%;
+        text-align: center;
+    }
+
+    .social-media-button-ul {
+        position:absolute;
+        display:flex;
+        flex-direction: column;
+        margin:0;
+        padding: 70px;
+        left: 9%;
+        top: 70%;
+    }
+
+    .social-media-button-ul #li-button {
+        padding-top: 80px;
+    }
+
+    #text-email {
+        width: 100%;
+        text-align: center;
+        left: 0;
+        top: 270%;
+    }
+
+    #text-cta {
+        width: 100%;
+        left: 0;
+        top: 75%;
+        text-align: center;
+    }
+}
