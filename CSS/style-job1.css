@@ -93,3 +93,11 @@
 #brightness {
     text-shadow: 0 0 50px;
 }
+
+@media (max-width: 1300px) {
+    .experience-description-1 {
+        position: relative;
+        top: 900px;
+        right: 70px;
+    }
+}
