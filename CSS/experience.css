@@ -6,9 +6,29 @@
     margin-bottom: 20px;
 }
 
+#title-experience {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 55px;
+    text-shadow: 0px 0px 50px;
+}
+
 .local-description-1, .local-description-2, .local-description-3 {
     position: absolute;
     font-family: 'Raleway', sans-serif;
     color: white;
     font-size: 22px;
+}
+
+@media (max-width: 1300px) {
+    .experience {
+        top: 1850px;
+        border-top: none;
+    }
+
+    #title-experience {
+        left: 0px;
+        text-align: center;
+    }
 }
