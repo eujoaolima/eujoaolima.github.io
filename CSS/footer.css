@@ -8,3 +8,10 @@ footer {
     text-align: end;
     padding: 5px;
 }
+
+@media (max-width: 1300px) {
+    footer {
+        top: 3250px;
+        width: 100%;
+    }
+}
