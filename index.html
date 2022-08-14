@@ -27,28 +27,37 @@
 
 <body>
     
-        <header class="top-header">
+    <header class="top-header">
+        <nav class="header-menu" id="nav">
             <img class="logo" src="./Images/Logo.jpg" alt="logo">
-            <nav class="header-menu">
-                <a class="header-menu-item" href="#home">Home</a>
-                <a class="header-menu-item" href="#who-is-joao">Who I am</a>
-                <a class="header-menu-item" href="#skills">Skills</a>
-                <a class="header-menu-item" href="#undergraduate">Education</a>
-                <a class="header-menu-item" href="#experience">Profissional Experience</a>
-                <a class="header-menu-item" href="#extracurricular">Extracurriculars</a>
-                <a class="header-menu-item" href="#projects">Projects</a>
-                <a class="header-menu-item" href="#social-media">Social Media</a>
-            </nav>
-        </header>
+            
+            <div class="mobile-menu">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-3"></div>
+            </div>
 
-        <main class="content" id="app">
+            <ul class="nav-list" role="menu">
+                <li><a class="header-menu-item" href="#home" id="btn-home">Home</a></li>
+                <li><a class="header-menu-item" href="#who-is-joao" id="btn-who-is-joao">Who I am</a></li>
+                <li><a class="header-menu-item" href="#skills" id="btn-skills">Skills</a></li>
+                <li><a class="header-menu-item" href="#undergraduate" id="btn-undergraduate">Education</a></li>
+                <li><a class="header-menu-item" href="#experience" id="btn-experience">Experience</a></li>
+                <li><a class="header-menu-item" href="#extracurricular" id="btn-extracurricular">Extracurriculars</a></li>
+                <li><a class="header-menu-item" href="#projects" id="btn-projects">Projects</a></li>
+                <li><a class="header-menu-item" href="#social-media" id="btn-social-media">Social Media</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <main class="content">
             <div class="home" id="home">
                 <section>
                     <img class="image-dev" src="./Images/Home-image.jpg" data-src="./Images/Home-image.jpg" alt="image-dev">
                     <h1 id="title-home">João Lima</h1>
                     <p id="paragraph-home">Mechanical Engineer | Web Developer</p>
                     <a class="btn-resume" href="./Images/João Pedro D. Lima - CV.pdf" download="João Pedro D. Lima - CV.pdf">
-                        <i class="fa-solid fa-cloud-arrow-down"><span> - Resume</span></i></a>
+                        <i class="fa-solid fa-cloud-arrow-down"><span> Resume</span></i></a>
                 </section>
             </div>
             <br>
@@ -56,27 +65,29 @@
               <section>
                     <h1 id="title-who-is-joao">Who is João Lima?</h1>
                     <img id="profile-photo" src="./Images/Profile-photo.jpg">
-                    <p id="paragraph-who-is-joao">Hi!! I am a Mechanical Engineering student and technology enthusiast. Today, I study programming languages on
-                         my own with a lot of dedication and commitment to reach my goal in the future to continue in the area of 
-                         Software Engineering as a Blockchain Engineer.</p>
+                    <p id="paragraph-who-is-joao">João Lima is a Mechanical Engineering student and
+                        technology enthusiast. Today, I study programming
+                        languages on my own with a lot of dedication and
+                        commitment to reach my goal in the future to continue in the area of 
+                        Software Engineering as a Blockchain Engineer.</p>
                 </section>
             </div>
             <br>
             <div class="skills" id="skills">
                 <section>
-                    <h1 id="title">Skills</h1>
-                        <ul>
-                            <li><a href="https://eujoaolima.github.io/Cplusplus-page/"><i class="fa-brands fa-c"><span> C++</span></i></a></li>
-                            <li><a href="https://eujoaolima.github.io/HTML-page/"><i class="fa fa-html5"><span>HTML</span></i></a></li>
-                            <li><a href="https://eujoaolima.github.io/CSS-page/"><i class="fa fa-css3"><span>CSS</span></i></a></li>
-                            <li><a href="https://eujoaolima.github.io/javascript-page/"><i class="fa-brands  fa-js"><span>JS</span></i></a></li>
+                    <h1 id="title-skills">Skills</h1>
+                        <ul class="ul">
+                            <li class="li"><a href="https://eujoaolima.github.io/Cplusplus-page/"><i class="fa-brands fa-c"><span> C++</span></i></a></li>
+                            <li class="li"><a href="https://eujoaolima.github.io/HTML-page/"><i class="fa fa-html5"><span>HTML</span></i></a></li>
+                            <li class="li"><a href="https://eujoaolima.github.io/CSS-page/"><i class="fa fa-css3"><span>CSS</span></i></a></li>
+                            <li class="li"><a href="https://eujoaolima.github.io/javascript-page/"><i class="fa-brands  fa-js"><span>JS</span></i></a></li>
                         </ul> 
                 </section>
             </div>
             <br>
-          <div class="undergraduate" id="undergraduate">
+            <div class="undergraduate" id="undergraduate">
                 <section>
-                    <h1 id="title">Education</h1>
+                    <h1 id="title-education">Education</h1>
                     <h3 id="local-undergraduate"><strong>Undergraduate: Unisagrado</h3>
                     <h3 id="local-undergraduate-2">Local: Bauru/São Paulo, Brazil</strong></h3>
                     <h3 id="course-undergraduate">Mechanical Engineering, Bachelor Degree</h3>
@@ -88,7 +99,7 @@
 
             <div class="experience" id="experience">
                 <section>
-                <h1 id="title">Profissional Experience</h1>
+                <h1 id="title-experience">Experience</h1>
                     <div class="experience-description-1">
                         <section>
                             <h2 class="job1">Illustrator</h2>
@@ -122,30 +133,29 @@
             </section>
             <br>
             <div class="extracurricular" id="extracurricular">
-               <h1 id="title">Extracurriculars</h1>
+               <h1 id="title-extracurricular">Extracurriculars</h1>
                 
                 <div class="experience-description-3">
                 <section>
                     <h2 class="job3">Development of own e-commerce</h2>
                         <p id="date-exc"><i>Period: nov/2020 até apr/2021</i></p>
-                        <p id="paragraph-14">With some skills acquired in the Young Apprentice</p>
-                        <p id="paragraph-15">program and analyzing the processes of the sector,</p>
-                        <p id="paragraph-16">I was able to develop from scratch a sales</p>
-                        <p id="paragraph-17">e-commerce without stock. </p>
+                        <p id="paragraph-extracurricular-1">With some skills acquired in the Young Apprentice 
+                            program and analyzing the processes of the sector, I was able to 
+                            develop from scratch a sales e-commerce without stock.</p>
                         <br>
-                        <p id="paragraph-18">In this project I developed valuable skills such as:</p>
-                        <p id="paragraph-19"><strong id="brightness">negotiation and sales, copywriting, website design,</p> 
-                        <p id="paragraph-20">computer programming, paid traffic management,</p>
-                        <p id="paragraph-21">ﬂash flow management, product mining and </p>  
-                        <p id="paragraph-22">contingencies.</strong></p >                  
+                        <p id="paragraph-extracurricular-2">In this project I developed valuable 
+                            skills such as: <strong id="brightness">negotiation and sales, copywriting, 
+                            website design, computer programming, paid traffic management, 
+                            ﬂash flow management, product mining and contingencies.</strong></p>  
                 </section>
                 </div>  
             </div>
             <br>
             <div class="projects" id="projects">
 
-                <h1 id="title">Projects</h1>
-
+                <h1 id="title-projects">Projects</h1>
+                
+                <div class="projects-pc">
                     <div id="back" class="btn-back">
                         <i class="fas fa-chevron-left"></i>
                     </div>
@@ -159,36 +169,89 @@
                     <div class="slides">
 
                         <div id="atual" class="images-project">
-                            <a href="https://github.com/eujoaolima/Mario-Jump"><img src="./Images/Mario Jump.png" alt="mariojump"></a>
+                            <a href="https://github.com/eujoaolima/Mario-Jump"><img src="./images/Mario Jump.png" alt="mariojump"></a>
                         </div>
 
                         <div class="images-project">     
-                            <a href="https://eujoaolima.github.io/pokedex/"><img src="./Images/Pokedex.png" alt="pokedex"></a>
+                            <a href="https://eujoaolima.github.io/pokedex/"><img src="./images/Pokedex.png" alt="pokedex"></a>
                         </div>
 
                         <div class="images-project">
-                            <a href="https://eujoaolima.github.io/Landing-Page/"><img src="./Images/LandingPage.png" alt="landingpage1"></a>
+                            <a href="https://eujoaolima.github.io/Landing-Page/"><img src="./images/LandingPage.png" alt="landingpage1"></a>
                         </div>
 
                         <div class="images-project">
-                            <a href="https://eujoaolima.github.io/calculator/"><img src="./Images/Calculadora.png" alt="calculator"></a>
+                            <a href="https://eujoaolima.github.io/calculator/"><img src="./images/Calculadora.png" alt="calculator"></a>
                         </div>
 
                         <div class="images-project">
-                           <a href="https://eujoaolima.github.io/digital-piano/"><img src="./Images/Digital Piano.png" alt="digital-piano"></a>
+                           <a href="https://eujoaolima.github.io/digital-piano/"><img src="./images/Digital Piano.png" alt="digital-piano"></a>
                         </div>
                                       
                         <div class="images-project">
-                            <img src="./Images/In soon.png" alt="in-soon">  
+                            <img src="./images/In soon.png" alt="in-soon">  
                         </div> 
 
                         <div class="balls"></div>
                     </div>
                 </div>
+                </div>
+                <div class="projects-mobile">
+                    <div class="navbar">
+                        <div class="box">
+                            <div class="icon mario">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <a id="link" href="https://github.com/eujoaolima/Mario-Jump">
+                            </div>
+                            <p>MarioJump</p></a>
+                        </div>
+                
+                        <div class="box">
+                            <div class="icon game">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                <a id="link" href="https://eujoaolima.github.io/pokedex/">
+                            </div>
+                            <p>Pokédex</p></a>
+                        </div>
+                
+                        <div class="box">
+                            <div class="icon bitcoin">
+                                <i class="fa-brands fa-bitcoin"></i>
+                                <a id="link" href="https://eujoaolima.github.io/Landing-Page/">
+                            </div>
+                            <p>Web Page</p></a>
+                        </div>
+                
+                        <div class="box">
+                            <div class="icon calculator">
+                                <i class="fa-solid fa-calculator"></i>
+                                <a id="link" href="https://eujoaolima.github.io/calculator/">
+                            </div>
+                            <p>Calculator</p></a>
+                        </div>
+                
+                        <div class="box">
+                            <div class="icon menu">
+                                <i class="fa-solid fa-book-open"></i>
+                                <a id="link" href="https://eujoaolima.github.io/digital-piano/">
+                            </div>
+                            <p>Menu</p></a>
+                        </div>
+                
+                        <div class="box">
+                            <div class="icon piano">
+                                <i class="fa-solid fa-music"></i>
+                                <a id="link" href="https://github.com/eujoaolima/Mario-Jump">
+                            </div>
+                            <p>Web Piano</p></a>
+                        </div>
+                
+                    </div>
+                </div>
             </div>
             <div class="social-media" id="social-media">
                 <section>
-                    <h1 id="title">Social Media</h1>
+                    <h1 id="title-social-media">Social Media</h1>
                     <h3 id="text-cta">Interested in my profile? Send me a message on my social media!</h3>
                         <ul class="social-media-button-ul">
                             <li id="li-button"><a href="https://github.com/eujoaolima"><i class="fa-brands fa-github"><span>Github</span></i></a></li>
@@ -206,6 +269,7 @@
             </footer>
         </main>
 
-        <script src="./Javascript/carousel.js"></script>
+        <script src="./Javascript/carousel.js" defer></script>
+        <script src="./Javascript/menu-hamburger.js" defer></script>
 </body>
 </html>
