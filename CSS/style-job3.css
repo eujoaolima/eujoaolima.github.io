@@ -14,7 +14,7 @@
     border: 3px solid white;
     border-radius: 80px; 
     width: 700px;
-    height: 450px;
+    height: 470px;
     box-shadow: inset 0 0 32px 0 #ffd700, 0 0 32px 0 #ffd700;
     text-shadow: 0 0 8px hsl(0, 0%, 100% / 0.3), 0 0 32px;
     left: 25%;
@@ -44,74 +44,53 @@
     left: 10%;
 }
 
-#paragraph-14 {
+#paragraph-extracurricular-1 {
     position: absolute;
     font-family: 'Nunito', sans-serif;
     font-size: 25px;
     top: 30%;
     left: 10%;
+    width: 80%
 }
 
-#paragraph-15 {
+#paragraph-extracurricular-2 {
     position: absolute;
     font-family: 'Nunito', sans-serif;
     font-size: 25px;
-    top: 37%;
+    top: 60%;
     left: 10%;
+    width: 80%;
 }
 
-#paragraph-16 {
-    position: absolute;
-    font-family: 'Nunito', sans-serif;
-    font-size: 25px;
-    top: 44%;
-    left: 10%;
-}
+@media (max-width: 1300px) {
+    #title-extracurricular {
+        position: relative;
+    }
 
-#paragraph-17 {
-    position: absolute;
-    font-family: 'Nunito', sans-serif;
-    font-size: 25px;
-    top: 51%;
-    left: 10%;
-}
+    .experience-description-3 {
+        width: 82%;
+        transform: translate(10%, 0);
+        left: 0;
+        justify-content: center ;
+        height: 900px;
+    }
 
-#paragraph-18 {
-    position: absolute;
-    font-family: 'Nunito', sans-serif;
-    font-size: 25px;
-    top: 58%;
-    left: 10%;
-}
+    #paragraph-extracurricular-1 {
+        left: 10%;
+    }
 
-#paragraph-19 {
-    position: absolute;
-    font-family: 'Nunito', sans-serif;
-    font-size: 25px;
-    top: 65%;
-    left: 10%;
-}
+    #paragraph-extracurricular-2 {
+        left: 10%;
+        top: 62%;
+    }
 
-#paragraph-20 {
-    position: absolute;
-    font-family: 'Nunito', sans-serif;
-    font-size: 25px;
-    top: 72%;
-    left: 10%;
-}
+    .job3 {
+        width: 80%;
+        text-align: center;
+        left: 10%;
+    }
 
-#paragraph-21 {
-    position: absolute;
-    font-family: 'Nunito', sans-serif;
-    font-size: 25px;
-    top: 79%;
-    left: 10%;
-}
-
-#paragraph-22 {
-    position: absolute;
-    font-family: 'Nunito', sans-serif;
-    font-size: 25px;
-    top: 86%;
-    left: 10%;
+    #date-exc {
+        left: 15%;
+    }  
 }
