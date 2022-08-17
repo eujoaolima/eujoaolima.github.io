@@ -169,17 +169,20 @@
         position:absolute;
         display:flex;
         flex-direction: column;
-        margin:0;
+        margin:auto;
         padding: 70px;
-        left: 9%;
-        top: 20%;
+        top: 200%;
+        width: 100%;
         bottom: -150px;
+        justify-content: center;
+        text-align: center;
     }
 
     #title-skills {
         position: absolute;
         top: 20%;
         left: 0;
+        font-size: 42px;
         text-align: center;
         width: 100%;
     }
