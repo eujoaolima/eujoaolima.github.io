@@ -68,29 +68,37 @@
     }
 
     .experience-description-3 {
-        width: 82%;
-        transform: translate(10%, 0);
         left: 0;
         justify-content: center ;
-        height: 900px;
+        height: 950px;
+        width: 103%;
+        transform: translate(-1%, 0);
     }
 
     #paragraph-extracurricular-1 {
         left: 10%;
+        width: 85%;
     }
 
     #paragraph-extracurricular-2 {
         left: 10%;
-        top: 62%;
+        top: 52%;
+        width: 85%;
     }
 
     .job3 {
-        width: 80%;
+        width: 70%;
+        margin: auto;
+        justify-content: center;
         text-align: center;
-        left: 10%;
+        left: 15%;
     }
 
     #date-exc {
-        left: 15%;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        left: 0%;
     }  
 }
