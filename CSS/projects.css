@@ -109,7 +109,8 @@
 @media (max-width: 1300px) {
     .projects {
         border: none;
-        top: 3100px;
+        font-family: 'Roboto Condensed', sans-serif;
+        top: 3200px;
     }
 
     .projects-pc {
@@ -118,6 +119,7 @@
 
     #title-projects {
         text-align: center;
+        font-size: 42px;
     }
 
     .projects-mobile {
