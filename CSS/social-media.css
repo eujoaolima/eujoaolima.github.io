@@ -156,13 +156,14 @@
 
 @media (max-width: 1300px) {
     .social-media {
-        top: 2900px;
+        top: 3000px;
         border: none;
     }
 
     #title-social-media {
         width: 100%;
         text-align: center;
+        font-size: 42px;
     }
 
     .social-media-button-ul {
@@ -183,11 +184,12 @@
         width: 100%;
         text-align: center;
         left: 0;
-        top: 270%;
+        top: 350%;
     }
 
     #text-cta {
         width: 100%;
+        font-size: 20px;
         left: 0;
         top: 75%;
         text-align: center;
