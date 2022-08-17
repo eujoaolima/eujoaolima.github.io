@@ -2,12 +2,12 @@
     position: relative;
     border: 3px solid white;
     border-radius: 80px; 
-    width: 450px;
+    width: 420px;
     height: 620px;
     box-shadow: inset 0 0 32px 0 #ffd700, 0 0 32px 0 #ffd700;
     text-shadow: 0 0 8px hsl(0, 0%, 100% / 0.3), 0 0 32px;
     left: 57%;
-    top: -285px;
+    top: -300px;
 }
 
 .experience-description-2::before {
@@ -27,15 +27,15 @@
 .local-description-2 {
     text-shadow: 0 0 50px;
     position: relative;
-    left: 14%;
-    top: 10px;
+    text-align: center;
+    top: 35px;
 }
 
 .local-description-3 {
     text-shadow: 0 0 50px;
     position: relative;
     left: 30%;
-    top: 15px;
+    top: 35px;
 }
 
 .job2 {
@@ -45,30 +45,57 @@
     text-shadow: 0 0 50px;
     font-family: 'Raleway', sans-serif;
     top: 50px;
-    left: 17%;
+    left: 15%;
+    width: 70%;
+    text-align: center;
 }
 
 #date-exp-yap {
     font-family: 'Raleway', sans-serif;
     position: relative;
-    top: 100px;
-    left: 14%;
+    top: 120px;
+    left: 19%;
     font-size: 20px;
     font-style: italic;
 }
 
-#paragraph-5, #paragraph-6, #paragraph-7, #paragraph-8, #paragraph-9, #paragraph-10, #paragraph-11, #paragraph-12, #paragraph-13 {
+#paragraph-job2-1, #paragraph-job2-2 {
     font-size: 22px;
     position: relative;
     font-family: 'Nunito', sans-serif;
     top: 100px;
     left: 8.7%;
+    width: 85%;
 }
 
 @media (max-width: 1300px) {
     .experience-description-2 {
         position: relative;
         bottom: 200px;
-        left: -85px;
+        left: 0;
+        transform: translate(-21%, 0);
+        width: 175%;
+    }
+
+    #date-exp-yap {
+        position: absolute;
+        left: 0;
+        top: 35%;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .local-description-2 {
+        top: 70px;
+    }
+
+    .local-description-3 {
+        top: 80px;
+    }
+
+    #paragraph-job2-1, #paragraph-job2-2 {
+        top: 140px;
     }
 }
