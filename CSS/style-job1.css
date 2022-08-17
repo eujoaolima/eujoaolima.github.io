@@ -3,7 +3,7 @@
     border: 3px solid white;
     border-radius: 80px; 
     width: 420px;
-    height: 380px;
+    height: 400px;
     box-shadow: inset 0 0 32px 0 #ffd700, 0 0 32px 0 #ffd700;
     text-shadow: 0 0 8px hsl(0, 0%, 100% / 0.3), 0 0 32px;
     top: 100px;
@@ -39,55 +39,22 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.job-2 {
-    position: relative;
-    color: #ffd700;
-    margin-top: 50px;
-    font-size: 35px;
-    text-shadow: 0 0 50px;
-    font-family: 'Raleway', sans-serif;
-    left: 33%;
-}
-
 #date-exp-illustrator {
     font-family: 'Raleway', sans-serif;
     position: relative;
     font-style: italic;
     font-size: 20px;
     top: 60px;
-    left: 9.5%;
+    left: 17%;
 }
 
-#paragraph-1 {
+#paragraph-job1-1 {
     position: relative;
     font-family: 'Nunito', sans-serif;
     font-size: 22px;
     top: 70px;
     left: 10%;
-}
-
-#paragraph-2 {
-    position: relative;
-    font-family: 'Nunito', sans-serif;
-    font-size: 22px;
-    top: 70px;
-    left: 10%;
-}
-
-#paragraph-3 {
-    position: relative;
-    font-family: 'Nunito', sans-serif;
-    font-size: 22px;
-    top: 70px;
-    left: 10%;
-}
-
-#paragraph-4 {
-    position: relative;
-    font-family: 'Nunito', sans-serif;
-    font-size: 22px;
-    top: 70px;
-    left: 10%;
+    width: 80%;
 }
 
 #brightness {
@@ -98,6 +65,39 @@
     .experience-description-1 {
         position: relative;
         top: 900px;
-        right: 70px;
+        left: 0;
+        transform: translate(-21%, 0);
+        width: 180%;
+        height: 400px;
+    }
+
+    .job1 {
+        left: 0;
+        top: 50px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .local-description-1 {
+        left: 0;
+        top: 50px;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #date-exp-illustrator {
+        left: 23%;
+        top: 100px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #paragraph-job1-1 {
+        top: 100px;
     }
 }
