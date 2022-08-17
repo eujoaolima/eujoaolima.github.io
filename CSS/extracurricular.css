@@ -22,8 +22,10 @@
     #title-extracurricular {
         position: absolute;
         left: 0;
-        transform: translate(-20%, 0);
         text-align: center;
+        margin: auto;
+        justify-content: center;
         width: 100%;
+        font-size: 42px;
     }
 }
