@@ -7,6 +7,7 @@
     box-shadow: inset 0 0 32px 0 #ffd700, 0 0 32px 0 #ffd700;
     text-shadow: 0 0 8px hsl(0, 0%, 100% / 0.3), 0 0 32px;
     top: 100px;
+    transform: translate(20%, -20%);
 }
 
 .experience-description-1::before {
