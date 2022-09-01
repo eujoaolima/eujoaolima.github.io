@@ -67,35 +67,3 @@
     left: 8.7%;
     width: 85%;
 }
-
-@media (max-width: 1300px) {
-    .experience-description-2 {
-        position: relative;
-        bottom: 200px;
-        left: 0;
-        transform: translate(-21%, 0);
-        width: 175%;
-    }
-
-    #date-exp-yap {
-        position: absolute;
-        left: 0;
-        top: 35%;
-        width: 100%;
-        margin: auto;
-        text-align: center;
-        justify-content: center;
-    }
-
-    .local-description-2 {
-        top: 70px;
-    }
-
-    .local-description-3 {
-        top: 80px;
-    }
-
-    #paragraph-job2-1, #paragraph-job2-2 {
-        top: 140px;
-    }
-}
