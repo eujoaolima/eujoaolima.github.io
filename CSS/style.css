@@ -14,6 +14,20 @@ body, html {
     color: white;
 }
 
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffd700;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c4a700a6;
+}
+
 @keyframes navLinkFade {
     from {
         opacity: 0;
