@@ -8,6 +8,7 @@
     text-shadow: 0 0 8px hsl(0, 0%, 100% / 0.3), 0 0 32px;
     left: 57%;
     top: -300px;
+    transform: translate(0, -15%);
 }
 
 .experience-description-2::before {
