@@ -77,7 +77,6 @@
         width: 100%;
         font-size: 50px;
         bottom: 270px;
-        transform: translate(15%, 0);
     }
 
     #paragraph-mobile {
@@ -109,7 +108,7 @@
         top: 50%;
         left: 0;
         width: 100%;
-    }
+    } */
 
     .btn-resume {
         position: absolute;
@@ -120,5 +119,6 @@
         cursor: pointer;
         z-index: 800;
         text-align: center;
-    } */
+        display: none;
+    }
 }
