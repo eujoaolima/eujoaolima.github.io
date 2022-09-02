@@ -37,6 +37,7 @@
     .who-is-joao {
         border-top: none;
         top: 500px;
+        display: none;
     }
 
     #title-who-is-joao {
