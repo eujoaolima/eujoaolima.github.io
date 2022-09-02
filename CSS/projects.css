@@ -111,6 +111,7 @@
         border: none;
         font-family: 'Roboto Condensed', sans-serif;
         top: 3200px;
+        display: none;
     }
 
     .projects-pc {
