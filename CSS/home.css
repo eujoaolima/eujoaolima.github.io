@@ -57,12 +57,40 @@
     left: 25%;
 }
 
+.home-mobile {
+    display: none;
+}
+
 @media (max-width: 1300px) {
     .image-dev {
         display: none;
     }
+    
+    .home-mobile {
+        display: block;
+    }
 
-    #title-home {
+    #title-mobile {
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        color: white;
+        width: 100%;
+        font-size: 50px;
+        bottom: 270px;
+        transform: translate(15%, 0);
+    }
+
+    #paragraph-mobile {
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+        position: absolute;
+        bottom: 260px;
+        left: 25%;
+        width: 100%;
+        transform: translate(-16%, 80%);
+    }
+
+    /* #title-home {
         position: absolute;
         text-align: center;
         font-family: 'Raleway', sans-serif;
@@ -92,5 +120,5 @@
         cursor: pointer;
         z-index: 800;
         text-align: center;
-    }
+    } */
 }
