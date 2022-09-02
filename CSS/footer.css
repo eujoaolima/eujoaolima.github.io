@@ -13,5 +13,6 @@ footer {
     footer {
         top: 3450px;
         width: 100%;
+        display: none;
     }
 }
