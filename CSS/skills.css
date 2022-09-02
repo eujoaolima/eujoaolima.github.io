@@ -163,6 +163,7 @@
     .skills {
         top: 1100px;
         border: none;
+        display: none;
     }
 
     .ul {
