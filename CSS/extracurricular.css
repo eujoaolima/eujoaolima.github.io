@@ -17,6 +17,7 @@
     .extracurricular {
         border: none;
         top: 2150px;
+        display: none;
     }
 
     #title-extracurricular {
