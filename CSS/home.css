@@ -71,22 +71,22 @@
     }
 
     #title-mobile {
-        position: absolute;
+       position: absolute;
         font-family: 'Raleway', sans-serif;
         color: white;
         width: 100%;
         font-size: 50px;
-        bottom: 270px;
+        text-align: center;
+        top: 28%;
     }
 
     #paragraph-mobile {
         font-family: 'Nunito', sans-serif;
         font-size: 20px;
         position: absolute;
-        bottom: 260px;
-        left: 25%;
         width: 100%;
-        transform: translate(-16%, 80%);
+        text-align: center;
+        top: 35%;
     }
 
     /* #title-home {
