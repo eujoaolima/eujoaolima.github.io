@@ -25,6 +25,7 @@
     .experience {
         top: 1850px;
         border-top: none;
+        display: none;
     }
 
     #title-experience {
