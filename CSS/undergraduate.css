@@ -63,6 +63,7 @@
         position: relative;
         border: none;
         top: 1550px;
+        display: none;
     }
     
     .university-img {
