@@ -1,0 +1,35 @@
+.who-is-joao {
+    position: relative;
+    border-top: 0.2px solid #222;
+    padding: 100px;
+    text-shadow: 0px 0px 50px;
+    top: 50px;
+    margin-bottom: 20px;
+}
+
+#profile-photo {
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 100%; 
+    box-shadow: 20px 10px 150px;
+    animation: neon-gradient-my-image 5s linear infinite; 
+}
+
+#title-who-is-joao {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    color: white;
+    left: 42%;
+    top: 20%;
+}
+
+#paragraph-who-is-joao {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    width: 40%;
+    color: white;
+    left: 42%;
+    top: 40%;
+}
