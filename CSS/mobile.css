@@ -22,7 +22,7 @@
     }
 
     .nav-list.active {
-        transform: translateX(-20%, 2%);
+        transform: translateX(0%, 2%);
     }
 
     .nav-list li {
@@ -78,7 +78,7 @@
         cursor: pointer;
         z-index: 800;
         text-align: center;
-        transform: translateX(-13%);
+        transform: translate(-15%, 5%);
     } 
 
     .btn-github {
@@ -90,7 +90,7 @@
         cursor: pointer;
         z-index: 800;
         text-align: center;
-        transform: translateX(-18%);
+        transform: translate(-13%, 5%);
     }
 
     .home-mobile {
@@ -101,7 +101,7 @@
 
     .who-is-joao {
         border-top: none;
-        top: 700px;
+        top: 300px;
     }
 
     #title-who-is-joao {
@@ -115,7 +115,7 @@
     }
 
     #profile-photo 0
-        transform: scale(1.2) translate(-25%, 22%);
+        transform: scale(1.2) translate(-75%, 26%);
         box-shadow: 20px 10px 150px;
         animation: neon-gradient-my-image 5s linear infinite;
     }
@@ -146,7 +146,7 @@
         width: 100%;
         justify-content: center;
         text-align: center;
-        transform: translate(0, 80%);
+        transform: translate(5%, 80%);
     }
 
     #title-skills {
@@ -172,7 +172,7 @@
         justify-content: center;
         align-items: center;
         left: 125px;
-        transform: translateX(-50%);
+        transform: translateX(-45%);
     }
 
     .experience-wrapper {
@@ -188,7 +188,7 @@
         border-left: none;
         border-bottom: 2px solid #272727;
         font-size: 30px;
-        transform: translateX(-18%);
+        transform: translateX(-16%);
     }
     
     .experience-local ul li.active {
@@ -230,7 +230,7 @@
     .projects {
         border: none;
         font-family: 'Roboto Condensed', sans-serif;
-        top: 2400px;
+        top: 2200px;
     }
 
     .projects-pc {
@@ -249,7 +249,7 @@
         align-items: center;
         height: 60vh;
         font-size: 25px;
-        transform: translateX(-9%, 25%);
+        transform: translate(0%, 40%);
     }
 
     .box{
@@ -374,7 +374,7 @@
     /* SOCIAL MEDIA */
 
     .social-media {
-        top: 2400px;
+        top: 2300px;
         border: none;
     }
 
@@ -386,7 +386,7 @@
     }
 
     .social-media-button-ul {
-        transform: translate(-10%,7%);
+        transform: translate(-12%, 8%);
     }
 
     .social-media-button-ul #li-button {
@@ -399,7 +399,7 @@
         font-size: 24px;
         left: 0;
         top: 335%;
-        transform: translateX(-5%);
+        transform: translateX(0%);
     }
 
     #text-cta {
@@ -414,7 +414,7 @@
     /* FOOTER */
     
     footer {
-        top: 2500px;
+        top: 2800px;
         width: 89%;
         font-size: 17px;
     }
