@@ -22,7 +22,7 @@
     }
 
     .nav-list.active {
-        transform: translateX(-30%);
+        transform: translateX(-20%, 2%);
     }
 
     .nav-list li {
@@ -63,7 +63,7 @@
         text-align: center;
         font-size: 25px;
         position: absolute;
-        top: 26%;
+        top: 28%;
         left: 0;
         width: 100%;
         transform: translateX(-5%);
@@ -78,7 +78,7 @@
         cursor: pointer;
         z-index: 800;
         text-align: center;
-        transform: translateX(-10%);
+        transform: translateX(-13%);
     } 
 
     .btn-github {
@@ -90,7 +90,7 @@
         cursor: pointer;
         z-index: 800;
         text-align: center;
-        transform: translateX(-10%);
+        transform: translateX(-18%);
     }
 
     .home-mobile {
@@ -114,8 +114,8 @@
         transform: translateX(-5%);
     }
 
-    #profile-photo {
-        transform: scale(1.2) translate(-5%, 19%);
+    #profile-photo 0
+        transform: scale(1.2) translate(-25%, 22%);
         box-shadow: 20px 10px 150px;
         animation: neon-gradient-my-image 5s linear infinite;
     }
@@ -127,13 +127,13 @@
         width: 80%;
         top: 100%;
         left: 0;
-        transform: translate(5%, 50%);
+        transform: translate(5%, 45%);
     }
 
     /* SKILLS */
 
     .skills {
-        top: 1000px;
+        top: 1200px;
         border: none;
     }
 
@@ -146,7 +146,7 @@
         width: 100%;
         justify-content: center;
         text-align: center;
-        transform: translate(16%, 80%);
+        transform: translate(0, 80%);
     }
 
     #title-skills {
@@ -164,7 +164,7 @@
     .experience {
         border-top: none;
         position: relative;
-        top: 2000px;
+        top: 1800px;
     }
 
     #title-experience {
@@ -172,7 +172,7 @@
         justify-content: center;
         align-items: center;
         left: 125px;
-        transform: translateX(-15%);
+        transform: translateX(-50%);
     }
 
     .experience-wrapper {
@@ -188,7 +188,7 @@
         border-left: none;
         border-bottom: 2px solid #272727;
         font-size: 30px;
-        transform: translateX(-20%);
+        transform: translateX(-18%);
     }
     
     .experience-local ul li.active {
@@ -203,7 +203,7 @@
         margin-top: 2rem;
         min-height: 10vh;
         width: 60%;
-        transform: translate(-13%, 0);
+        transform: translate(-11%, 0);
     }
 
     .experience-description span {
@@ -249,7 +249,7 @@
         align-items: center;
         height: 60vh;
         font-size: 25px;
-        transform: translateX(-9%, 20%);
+        transform: translateX(-9%, 25%);
     }
 
     .box{
@@ -374,7 +374,7 @@
     /* SOCIAL MEDIA */
 
     .social-media {
-        top: 2800px;
+        top: 2400px;
         border: none;
     }
 
@@ -398,8 +398,8 @@
         text-align: center;
         font-size: 24px;
         left: 0;
-        top: 345%;
-        transform: translateX(10%);
+        top: 335%;
+        transform: translateX(-5%);
     }
 
     #text-cta {
