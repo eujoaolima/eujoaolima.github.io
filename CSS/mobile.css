@@ -36,7 +36,7 @@
     }
     
     .logo {
-        height: 120px;
+        height: 90px;
         transform: translateX(-55%);
     }
 
@@ -71,7 +71,7 @@
 
     .btn-resume {
         position: absolute;
-        top: 30%;
+        top: 36%;
         left: 20%;
         width: 60%;
         height: 8%;
@@ -83,7 +83,7 @@
 
     .btn-github {
         position: absolute;
-        top: 40%;
+        top: 50%;
         left: 20%;
         width: 60%;
         height: 8%;
@@ -101,7 +101,7 @@
 
     .who-is-joao {
         border-top: none;
-        top: 500px;
+        top: 700px;
     }
 
     #title-who-is-joao {
@@ -115,7 +115,7 @@
     }
 
     #profile-photo {
-        transform: scale(1.2) translate(5%, 17%);
+        transform: scale(1.2) translate(-5%, 19%);
         box-shadow: 20px 10px 150px;
         animation: neon-gradient-my-image 5s linear infinite;
     }
@@ -133,7 +133,7 @@
     /* SKILLS */
 
     .skills {
-        top: 800px;
+        top: 1000px;
         border: none;
     }
 
@@ -146,7 +146,7 @@
         width: 100%;
         justify-content: center;
         text-align: center;
-        transform: translate(21%,80%);
+        transform: translate(16%, 80%);
     }
 
     #title-skills {
@@ -164,7 +164,7 @@
     .experience {
         border-top: none;
         position: relative;
-        top: 1800px;
+        top: 2000px;
     }
 
     #title-experience {
@@ -172,7 +172,7 @@
         justify-content: center;
         align-items: center;
         left: 125px;
-        transform: translateX(-8%);
+        transform: translateX(-15%);
     }
 
     .experience-wrapper {
@@ -188,7 +188,7 @@
         border-left: none;
         border-bottom: 2px solid #272727;
         font-size: 30px;
-        transform: translateX(-27%);
+        transform: translateX(-20%);
     }
     
     .experience-local ul li.active {
@@ -230,7 +230,7 @@
     .projects {
         border: none;
         font-family: 'Roboto Condensed', sans-serif;
-        top: 2200px;
+        top: 2400px;
     }
 
     .projects-pc {
@@ -249,7 +249,7 @@
         align-items: center;
         height: 60vh;
         font-size: 25px;
-        transform: translateX(-9%);
+        transform: translateX(-9%, 20%);
     }
 
     .box{
@@ -374,7 +374,7 @@
     /* SOCIAL MEDIA */
 
     .social-media {
-        top: 2000px;
+        top: 2800px;
         border: none;
     }
 
@@ -386,7 +386,7 @@
     }
 
     .social-media-button-ul {
-        transform: translate(7%,5%);
+        transform: translate(-10%,7%);
     }
 
     .social-media-button-ul #li-button {
@@ -396,9 +396,9 @@
     #text-email {
         width: 70%;
         text-align: center;
-        font-size: 30px;
+        font-size: 24px;
         left: 0;
-        top: 350%;
+        top: 345%;
         transform: translateX(10%);
     }
 
@@ -416,6 +416,6 @@
     footer {
         top: 2500px;
         width: 89%;
-        font-size: 25px;
+        font-size: 17px;
     }
 }
