@@ -8,7 +8,7 @@
 
     .nav-list {
         position: absolute;
-        top: 11.5vh;
+        top: 12vh;
         right: 0;
         width: 50vw;
         height: 92vh;
@@ -22,7 +22,7 @@
     }
 
     .nav-list.active {
-        transform: translateX(-97%, 5%);
+        transform: translate(-150%, 5%);
     }
 
     .nav-list li {
@@ -78,7 +78,7 @@
         cursor: pointer;
         z-index: 800;
         text-align: center;
-        transform: translate(-10%, 8%);
+        transform: translate(-8%, 8%);
     } 
 
     .btn-github {
@@ -90,7 +90,7 @@
         cursor: pointer;
         z-index: 800;
         text-align: center;
-        transform: translate(-10%, 33%);
+        transform: translate(-8%, 36%);
     }
 
     .home-mobile {
@@ -115,7 +115,7 @@
     }
 
     #profile-photo {
-        transform: scale(1.2) translate(-40%, 26%);
+        transform: scale(1.2) translate(-20%, 26%);
         box-shadow: 20px 10px 150px;
         animation: neon-gradient-my-image 5s linear infinite;
     }
@@ -230,7 +230,7 @@
     .projects {
         border: none;
         font-family: 'Roboto Condensed', sans-serif;
-        top: 1900px;
+        top: 2000px;
     }
 
     .projects-pc {
@@ -374,7 +374,7 @@
     /* SOCIAL MEDIA */
 
     .social-media {
-        top: 2200px;
+        top: 2000px;
         border: none;
     }
 
@@ -400,7 +400,7 @@
         font-size: 24px;
         left: 0;
         top: 340%;
-        transform: translateX(3%);
+        transform: translate(3%, 5%);
     }
 
     #text-cta {
