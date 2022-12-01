@@ -78,7 +78,7 @@
         cursor: pointer;
         z-index: 800;
         text-align: center;
-        transform: translate(-8%, 8%);
+        transform: translate(-6%, 10%);
     } 
 
     .btn-github {
@@ -90,7 +90,7 @@
         cursor: pointer;
         z-index: 800;
         text-align: center;
-        transform: translate(-8%, 36%);
+        transform: translate(-6%, 56%);
     }
 
     .home-mobile {
@@ -115,7 +115,7 @@
     }
 
     #profile-photo {
-        transform: scale(1.2) translate(-20%, 26%);
+        transform: scale(1.2) translate(00%, 26%);
         box-shadow: 20px 10px 150px;
         animation: neon-gradient-my-image 5s linear infinite;
     }
@@ -156,7 +156,7 @@
         font-size: 52px;
         text-align: center;
         width: 100%;
-        transform: translateX(-8%);
+        transform: translateX(-7%);
     }
 
     /* EXPERIENCE */
@@ -230,7 +230,7 @@
     .projects {
         border: none;
         font-family: 'Roboto Condensed', sans-serif;
-        top: 2000px;
+        top: 2100px;
     }
 
     .projects-pc {
@@ -374,7 +374,7 @@
     /* SOCIAL MEDIA */
 
     .social-media {
-        top: 2000px;
+        top: 1800px;
         border: none;
     }
 
@@ -400,7 +400,7 @@
         font-size: 24px;
         left: 0;
         top: 340%;
-        transform: translate(3%, 5%);
+        transform: translate(4%, 10%);
     }
 
     #text-cta {
