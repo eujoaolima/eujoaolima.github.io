@@ -22,7 +22,7 @@
     }
 
     .nav-list.active {
-        transform: translateX(0%, 2%);
+        transform: translateX(-15%, 2%);
     }
 
     .nav-list li {
@@ -78,7 +78,7 @@
         cursor: pointer;
         z-index: 800;
         text-align: center;
-        transform: translate(-15%, 5%);
+        transform: translate(-10%, 6%);
     } 
 
     .btn-github {
@@ -90,7 +90,7 @@
         cursor: pointer;
         z-index: 800;
         text-align: center;
-        transform: translate(-13%, 5%);
+        transform: translate(-10%, 16%);
     }
 
     .home-mobile {
@@ -101,7 +101,7 @@
 
     .who-is-joao {
         border-top: none;
-        top: 300px;
+        top: 500px;
     }
 
     #title-who-is-joao {
@@ -114,8 +114,8 @@
         transform: translateX(-5%);
     }
 
-    #profile-photo 0
-        transform: scale(1.2) translate(-75%, 26%);
+    #profile-photo {
+        transform: scale(1.2) translate(-100%, 26%);
         box-shadow: 20px 10px 150px;
         animation: neon-gradient-my-image 5s linear infinite;
     }
@@ -127,13 +127,13 @@
         width: 80%;
         top: 100%;
         left: 0;
-        transform: translate(5%, 45%);
+        transform: translate(5%, 25%);
     }
 
     /* SKILLS */
 
     .skills {
-        top: 1200px;
+        top: 900px;
         border: none;
     }
 
@@ -188,7 +188,7 @@
         border-left: none;
         border-bottom: 2px solid #272727;
         font-size: 30px;
-        transform: translateX(-16%);
+        transform: translateX(-14%);
     }
     
     .experience-local ul li.active {
@@ -202,7 +202,7 @@
         margin-left: 0;
         margin-top: 2rem;
         min-height: 10vh;
-        width: 60%;
+        width: 65%;
         transform: translate(-11%, 0);
     }
 
@@ -249,7 +249,7 @@
         align-items: center;
         height: 60vh;
         font-size: 25px;
-        transform: translate(0%, 40%);
+        transform: translate(-2%, 30%);
     }
 
     .box{
@@ -374,7 +374,7 @@
     /* SOCIAL MEDIA */
 
     .social-media {
-        top: 2300px;
+        top: 2200px;
         border: none;
     }
 
@@ -399,7 +399,7 @@
         font-size: 24px;
         left: 0;
         top: 335%;
-        transform: translateX(0%);
+        transform: translateX(2%);
     }
 
     #text-cta {
@@ -414,7 +414,7 @@
     /* FOOTER */
     
     footer {
-        top: 2800px;
+        top: 2880px;
         width: 89%;
         font-size: 17px;
     }
