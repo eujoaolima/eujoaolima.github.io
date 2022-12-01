@@ -8,7 +8,7 @@
 
     .nav-list {
         position: absolute;
-        top: 12vh;
+        top: 10vh;
         right: 0;
         width: 50vw;
         height: 92vh;
@@ -22,7 +22,7 @@
     }
 
     .nav-list.active {
-        transform: translate(-27%, 1%);
+        transform: translateX(-25%);
     }
 
     .nav-list li {
@@ -90,7 +90,7 @@
         cursor: pointer;
         z-index: 800;
         text-align: center;
-        transform: translate(-6%, 60%);
+        transform: translate(-6%, 70%);
     }
 
     .home-mobile {
