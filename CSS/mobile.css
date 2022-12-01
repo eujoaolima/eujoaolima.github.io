@@ -22,7 +22,7 @@
     }
 
     .nav-list.active {
-        transform: translate(-150%, 5%);
+        transform: translate(-30%, 5%);
     }
 
     .nav-list li {
