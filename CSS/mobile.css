@@ -22,7 +22,7 @@
     }
 
     .nav-list.active {
-        transform: translateX(-15%, 2%);
+        transform: translateX(-45%, 2%);
     }
 
     .nav-list li {
@@ -78,7 +78,7 @@
         cursor: pointer;
         z-index: 800;
         text-align: center;
-        transform: translate(-10%, 6%);
+        transform: translate(-10%, 8%);
     } 
 
     .btn-github {
@@ -90,7 +90,7 @@
         cursor: pointer;
         z-index: 800;
         text-align: center;
-        transform: translate(-10%, 16%);
+        transform: translate(-10%, 26%);
     }
 
     .home-mobile {
@@ -115,7 +115,7 @@
     }
 
     #profile-photo {
-        transform: scale(1.2) translate(-100%, 26%);
+        transform: scale(1.2) translate(-60%, 26%);
         box-shadow: 20px 10px 150px;
         animation: neon-gradient-my-image 5s linear infinite;
     }
@@ -164,7 +164,7 @@
     .experience {
         border-top: none;
         position: relative;
-        top: 1800px;
+        top: 1500px;
     }
 
     #title-experience {
@@ -202,7 +202,7 @@
         margin-left: 0;
         margin-top: 2rem;
         min-height: 10vh;
-        width: 65%;
+        width: 68%;
         transform: translate(-11%, 0);
     }
 
@@ -249,7 +249,7 @@
         align-items: center;
         height: 60vh;
         font-size: 25px;
-        transform: translate(-2%, 30%);
+        transform: translate(-5%, 30%);
     }
 
     .box{
@@ -386,6 +386,7 @@
     }
 
     .social-media-button-ul {
+        flex-direction: column;
         transform: translate(-12%, 8%);
     }
 
@@ -399,7 +400,7 @@
         font-size: 24px;
         left: 0;
         top: 335%;
-        transform: translateX(2%);
+        transform: translateX(3%);
     }
 
     #text-cta {
