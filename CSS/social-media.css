@@ -12,7 +12,7 @@
     display: flex;
     margin:0;
     padding: 70px;
-    left: 16%;
+    left: 10%;
     top: 82%;
 }
 
@@ -131,6 +131,18 @@
     background: linear-gradient(45deg, #222, #ff0050, #00f2ea);
 }
 
+.social-media-button-ul #li-button:hover:nth-child(4) a{
+    background: #00acee;
+}
+
+.social-media-button-ul #li-button:hover:nth-child(4) a:before{
+    background: #016e99;
+}
+
+.social-media-button-ul #li-button:hover:nth-child(4) a:after{
+    background: #01b7ff;
+}
+
 #text-email {
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -152,46 +164,4 @@
     color: white;
     font-size: 55px;
     text-shadow: 0px 0px 50px;
-}
-
-@media (max-width: 1300px) {
-    .social-media {
-        top: 3000px;
-        border: none;
-    }
-
-    #title-social-media {
-        width: 100%;
-        text-align: center;
-        font-size: 42px;
-    }
-
-    .social-media-button-ul {
-        position:absolute;
-        display:flex;
-        flex-direction: column;
-        margin:0;
-        padding: 70px;
-        left: 9%;
-        top: 70%;
-    }
-
-    .social-media-button-ul #li-button {
-        padding-top: 80px;
-    }
-
-    #text-email {
-        width: 100%;
-        text-align: center;
-        left: 0;
-        top: 350%;
-    }
-
-    #text-cta {
-        width: 100%;
-        font-size: 20px;
-        left: 0;
-        top: 75%;
-        text-align: center;
-    }
 }
