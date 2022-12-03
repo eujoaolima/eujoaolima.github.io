@@ -22,7 +22,7 @@
     }
 
     .nav-list.active {
-        transform: translate(-18%, 2%);
+        transform: translate(-12%, 2%);
     }
 
     .nav-list li {
@@ -115,7 +115,7 @@
     }
 
     #profile-photo {
-        transform: scale(1.2) translate(-17%, 26%);
+        transform: scale(0.8) translate(-17%, 26%);
         box-shadow: 20px 10px 150px;
         animation: neon-gradient-my-image 5s linear infinite;
     }
@@ -400,7 +400,7 @@
         font-size: 24px;
         left: 0;
         top: 340%;
-        transform: translate(8%, 15%);
+        transform: translate(8%, 20%);
     }
 
     #text-cta {
@@ -416,7 +416,7 @@
     
     footer {
         top: 2800px;
-        width: 91%;
+        width: 100%;
         font-size: 17px;
     }
 }
